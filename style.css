@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 header {
     background-color: #eee;
 }
@@ -5,6 +6,7 @@ header {
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .fh-container {
@@ -38,7 +40,7 @@ header .fh-row {
 .fh-menu ul {
     list-style: none;
     display: flex;
-    gap: 20px 10px;
+    gap: 10px 30px;
 }
 
 .fh-menu {
