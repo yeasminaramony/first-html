@@ -1,0 +1,52 @@
+header {
+    background-color: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fh-container {
+    width: 1200px;
+    margin: auto;
+}
+
+.fh-row {
+    display: flex;
+}
+
+header .fh-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fh-logo {
+    height: 60px;
+    width: 100px;
+}
+
+.fh-logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: left;
+}
+
+.fh-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px 10px;
+}
+
+.fh-menu {
+    display: flex;
+    align-items: center;
+}
+
+.fh-menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+}
