@@ -1,3 +1,10 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Crimson Pro', serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,7 +20,6 @@
 .row {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -74,12 +80,54 @@
     padding: 15px 40px;
     font-size: 18px;
     box-shadow: -15px 15px 20px #0003;
+    display: inline-block;
 }
 
 section.home-hero-section {
     background-size: cover;
     background-position: bottom center;
 }
+.margin-b-80{
+    margin-bottom: 80px;
+
+}
 
 
 /* home hero end */
+
+
+section.text-and-image-section .row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+section.text-and-image-section .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+section.text-and-image-section h2 {
+    font-size: 48px;
+    color: #E67136;
+}
+
+section.text-and-image-section h3 {
+    font-size: 32px;
+    
+}
+section.text-and-image-section .content p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+}
