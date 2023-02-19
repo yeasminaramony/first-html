@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}header {
+    background-color: lemonchiffon;
+}
+
+.container {
+    margin: auto;
+    width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {height: 60px;width: 100px;}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 10px  40px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: left;
+}
+
+.background-image{
+    background-size: cover;
+}
