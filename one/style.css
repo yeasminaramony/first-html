@@ -1,54 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-header {
-    background-color: #eee;
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Crimson Pro', serif;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+}header {
+    background-color: #b57b6685;
 }
-
-.fh-container {
-    width: 1200px;
+.container {
     margin: auto;
+    width: 1200px;
 }
 
-.fh-row {
+.row {
     display: flex;
-}
-
-header .fh-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
-.fh-logo {
+.logo {
     height: 60px;
     width: 100px;
 }
-
-.fh-logo img {
+.logo img {
     height: 100%;
     width: 100%;
     object-fit: contain;
     object-position: left;
 }
-
-.fh-menu ul {
+.menu ul {
     list-style: none;
     display: flex;
-    gap: 10px 30px;
+    gap: 10px 40px;
 }
 
-.fh-menu {
+.menu ul li a {
+    text-decoration: none;
+}
+.background-image{
+    background-size: cover;
+    background-position: bottom center;
+}
+.button {
+    text-decoration: none;
+    background-color: #e67136;
+    color: black;
+    display: inline-block;
+    padding: 15px 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: -15px 15px 20px #0003;
+}
+.home-hero-content h1 span {color: #E67136;}
+.home-hero-content {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.home-hero-content h1 {
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+section.home-hero-section {
+    background-size: cover;
+    background-position: bottom center;
+}
+.margin-b-80 {
+    margin-bottom: 80px;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+section.text-and-img-section .row {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
-.fh-menu ul li a {
+section.text-and-img-section .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+section.text-and-img-section h2 {
+    font-size: 48px;
+    color: #E67136;
+}
+
+section.text-and-img-section h3 {
+    font-size: 32px;
+}
+
+section.text-and-img-section .content p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+}
+center.sec-title {
+    text-align: center;
+}
+
+.sec-title {
+    color: #E67136;
+    font-size: 48px;
+}
+
+.margin-b-40 {
+    margin-bottom: 40px;
+}
+
+.center {
+    text-align: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+section.offer-section .row {
+    gap: 20px;
+}
+
+.offer-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.cta-content h2 span {
+    color: #e67136;
+    font-size: 96px;
+}
+
+.cta-content h2 {
+    font-size: 64px;
+}
+.rewards-items-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.tools-image {
+    background-color: #506961;
+    width: 225px;
+    border-radius: 20px;
+}
+
+.tools-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+.row.tools-item-wrapper {
+    text-align: center;
+    gap: 20px;
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.welcome-home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.sec-title.black{
+    color:black;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact a {
     text-decoration: none;
-    font-size: 18px;
+}
+
+.contact h4 {
+    color: #e67136;
+}
+
+
+footer .container .row {
+    padding: 20px 50px;
+}
+
+footer {background-color: #244439;padding: 50px 0;}
+
+footer .container {
+    background-color: white;
+    border-radius: 40px;
+}
+p.footer-text {
+    font-size: 24px;
+}
+.section-background{
+    background-color: #F5F4F4;
+    padding: 50px 0;
 }
